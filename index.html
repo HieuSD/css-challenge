@@ -1,14 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS challenge</title>
-    <!-- css link -->
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS challenge</title>
+  <!-- Font awsome CDN link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- css link -->
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+  <!-- calender -->
+  <section id="calender">
+    <h2>Calender</h2>
+    <div class="frame">
+      <div class="calendar">
+        <div class="calender-card">
+          <p class="calender-card-text">Sunday</p>
+          <p class="calender-card-number">15</p>
+        </div>
+        <div class="calender-card">
+          <p class="calender-card-text">Monday</p>
+          <p class="calender-card-number">16</p>
+        </div>
+        <div class="calender-card">
+          <p class="calender-card-text">Tuesday</p>
+          <p class="calender-card-number">17</p>
+        </div>
+        <div class="calender-card">
+          <p class="calender-card-text">Wednesday</p>
+          <p class="calender-card-number">18</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Pagination -->
+  <section id="pagination">
+    <h2>Pagination</h2>
+    <div class="frame">
+      <div class="pagination">
+        <input type="radio" name="nav" id="input-1" class="input" checked style="--input: 1">
+        <input type="radio" name="nav" id="input-2" class="input" style="--input: 2">
+        <input type="radio" name="nav" id="input-3" class="input" style="--input: 3">
+        <input type="radio" name="nav" id="input-4" class="input" style="--input: 4">
+        <label for="input-1" class="button btn-1" style="--btn: 1">1</label>
+        <label for="input-2" class="button btn-2" style="--btn: 2">2</label>
+        <label for="input-3" class="button btn-3" style="--btn: 3">3</label>
+        <label for="input-4" class="button btn-4" style="--btn: 4">4</label>
+      </div>
+    </div>
+  </section>
+  <!-- Hover -->
+  <section id="hover">
+    <h2>Hover Me</h2>
+    <div class="frame">
+      <div class="hover">
+        <div class="hover-btn hover-btn-1" style="--hover: 1">Hover Me</div>
+        <div class="hover-btn hover-btn-2" style="--hover: 2">Hover Me</div>
+        <div class="hover-btn hover-btn-3" style="--hover: 3">Hover Me</div>
+      </div>
+    </div>
+  </section>
+  <!-- Flexbox Accordeon -->
+  <section id="flexBox">
+    <div class="frame">
+      <div class="flexBox">
+        <div class="box box-1 box-white">
+          <p class="box-text">Một</p>
+        </div>
+        <div class="box box-green">
+          <p class="box-text">Hai</p>
+        </div>
+        <div class="box box-white">
+          <p class="box-text">Ba</p>
+        </div>
+        <div class="box box-green">
+          <p class="box-text">Bốn</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Action Button -->
+  <section id="actionBtn">
+    <div class="frame">
+      <div class="actionBtn">
+        <input type="checkbox" name="action" id="action" class="action">
+        <label for="action" class="action-btn">
+          <span class="btn-front">send</span>
+          <span class="btn-back">done</span>
+        </label>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
